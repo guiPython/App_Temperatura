@@ -59,10 +59,10 @@ class OperacaoActivity : AppCompatActivity() {
                 "Kelvin Fahrenheit" -> (temperatura_convert - 273.15) * 1.8 + 32
                 "Kelvin Rankine" -> temperatura_convert * 1.8
                 "Rankine Celsius" -> (temperatura_convert  - 491.67) / 1.8
-                "Rankine Fahrenheit" -> temperatura_convert - 491.67
+                "Rankine Fahrenheit" -> temperatura_convert - 459.67
                 "Rankine Kelvin" -> temperatura_convert  / 1.8
                 "Fahrenheit Celsius" -> (temperatura_convert - 32) /1.8
-                "Fahrenheit Rankine" -> temperatura_convert + 491.67
+                "Fahrenheit Rankine" -> temperatura_convert + 459.67
                 "Fahrenheit Kelvin" -> (temperatura_convert - 32) / 1.8 + 273.15
                 else -> "Sem Solucao"
             }
